@@ -25,3 +25,4 @@ long TP_init(){
   long measurement=pulseIn (vibr_Pin, HIGH);  //wait for the pin to get HIGH and returns measurement
   return measurement;
 }
+
