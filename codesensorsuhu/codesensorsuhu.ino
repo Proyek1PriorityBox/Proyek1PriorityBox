@@ -30,3 +30,5 @@ void loop() {
   //delay sesaat sebelum pembacaan selanjutnya
   delay(1000);
 } 
+
+
