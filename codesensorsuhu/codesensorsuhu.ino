@@ -1,6 +1,6 @@
 #include "DHT.h"
  
-// pin digital yang digunakan
+// .pin digital yang digunakan
 #define DHTPIN 2
  
 // saat ini saya pakai sensor DHT11.
