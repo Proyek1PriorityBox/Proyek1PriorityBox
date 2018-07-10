@@ -3,7 +3,7 @@
   www.circuits4you.com
 */
  
-const float SensorOffset = 102.0;
+const float SensorOffset = 102.0;  
 // the setup routine runs once when you press reset:
 void setup() {
   // initialize serial communication at 9600 bits per second:
