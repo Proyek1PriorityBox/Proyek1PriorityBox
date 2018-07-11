@@ -19,7 +19,7 @@ void setup() {
  
 void loop() {
   // Baca kelembaban
-  float h = dht.readHumidity();
+  float h = dht.readHumidity();  
   // Baca temperatur dalam celcius
   float t = dht.readTemperature();
   //tampilkan pada serial monitor  
