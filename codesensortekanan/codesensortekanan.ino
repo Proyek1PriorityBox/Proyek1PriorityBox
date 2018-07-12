@@ -21,9 +21,3 @@ void loop() {
   
   delay(2000);        // delay in between reads for stability
 }
-
-
-
-
-
-
