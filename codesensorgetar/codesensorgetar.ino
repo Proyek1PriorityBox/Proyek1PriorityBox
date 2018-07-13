@@ -9,7 +9,7 @@ void setup(){
 }
 void loop(){
   long measurement =TP_init();
-  delay(50);
+  delay(1000);
  // Serial.print("measurment = ");
   Serial.println(measurement);
   if (measurement > 200){
