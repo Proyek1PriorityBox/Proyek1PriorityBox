@@ -12,7 +12,7 @@ void loop(){
   delay(1000);
  // Serial.print("measurment = ");
   Serial.println(measurement);
-  if (measurement > 200){
+  if (measurement > 300){
     digitalWrite(LED_Pin, HIGH);
   }
   else{
