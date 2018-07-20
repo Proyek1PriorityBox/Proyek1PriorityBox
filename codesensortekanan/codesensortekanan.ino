@@ -1,5 +1,5 @@
- const float SensorOffset = 102.0;  
-// the setup routine runs once when you press reset:
+const float SensorOffset = 102.0;  
+
 void setup() {
   // initialize serial communication at 9600 bits per second:
   Serial.begin(9600);
