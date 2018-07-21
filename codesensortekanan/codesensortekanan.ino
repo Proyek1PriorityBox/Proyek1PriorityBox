@@ -1,7 +1,7 @@
 const float SensorOffset = 102.0;  
 
 void setup() {
-  // initialize serial communication at 9600 bits per second:
+  // initialize serial communication at 9600 bits per detik:
   Serial.begin(9600);
 }
  
