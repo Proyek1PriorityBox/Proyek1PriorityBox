@@ -19,5 +19,5 @@ void loop() {
   Serial.print(sensorValue,2);
   Serial.println(" kPa");
   
-  delay(1000);        // delay in between reads for stability
+  delay(1000);      // delay in between reads for stability
 }
