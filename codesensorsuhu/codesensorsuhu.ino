@@ -1,8 +1,5 @@
-/* How to use DHT-11 sensor with Arduino uno
-   Temperature and humidity sensor
-   Dev: Michalis Vasilakis // Date: 1/7/2015 // www.ardumotive.com */
 
-//Libraries
+
 #include <DHT.h>
 
 //Constants
