@@ -9,10 +9,10 @@ void setup(){
 }
 void loop(){
   long measurement =TP_init();
-  delay(1000);
+  delay(100);
  // Serial.print("measurment = ");
   Serial.println(measurement);
-  if (measurement > 300){
+  if (measurement > 20000 ){
     digitalWrite(LED_Pin, HIGH);
   }
   else{
@@ -21,7 +21,7 @@ void loop(){
 }
 
 long TP_init(){
-  delay(10);
+  delay(100);
   long measurement=pulseIn (vibr_Pin, HIGH);  //wait for the pin to get HIGH and returns measurement
   return measurement;
 }
