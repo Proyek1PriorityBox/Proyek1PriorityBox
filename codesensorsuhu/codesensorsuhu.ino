@@ -1,5 +1,3 @@
-
-
 #include <DHT.h>
 
 //Constants
